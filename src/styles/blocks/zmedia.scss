@@ -161,8 +161,8 @@
   .hero__event{
     z-index: 5;
     width: 279px;
-    height: 120px;
-    padding-right: 36%;
+    min-height: 120px;
+    padding-right: 20%;
     margin-bottom: 184px;
   }
 
