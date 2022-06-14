@@ -59,6 +59,19 @@
   line-height: 150%;
 }
 
+.promo__list{
+  display: flex;
+  overflow-x: auto;
+}
+
+.promo__list::-webkit-scrollbar{
+  display: none;
+}
+
+.promo__item{
+  margin-right: 15px;
+}
+
 .promo{
   background: #101010;
   width: 1180px;
