@@ -1,0 +1,102 @@
+.massage__title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.massage__choise-input{
+	display: none;
+}
+
+.massage__choise-visible{
+	margin-right: 15px;
+    border: 2px solid #fac83a;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.massage__choise-visible::before{
+	content: "";
+    height: 10px;
+    width: 10px;
+    background: #fac83a;
+    border-radius: 50%;
+    display: none;
+}
+
+.massage__choise-radio{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.massage__choise-input:checked ~ .massage__choise-visible::before{
+	display: block;
+}
+
+.massage__choise-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.massage__choise{
+    margin-bottom: 20px;
+}
+
+.form__massage-img{
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.form__massage-item{
+    background: #fac83a;
+    border-radius: 5px;
+    height: 350px;
+    max-width: 250px;
+    padding: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form__massage-list{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#man-list{
+    display: flex;
+}
+
+
+
+.form__massage-title{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.form__massage-info p{
+    color: #000;
+    font-size: 14px;
+}
+
+.btn-form{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color:#000;
+    margin-left: auto;
+}
+

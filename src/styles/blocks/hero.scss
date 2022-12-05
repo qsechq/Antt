@@ -1,0 +1,22 @@
+.hero__main{
+    background: url(./images/hero.jpeg) center center no-repeat;
+    border-radius: 5px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    justify-content: center;
+    h2{
+        margin-bottom: 20px;
+        text-shadow: 1px 1px #000;
+    }
+}
+
+.hero__title{
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #000;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
